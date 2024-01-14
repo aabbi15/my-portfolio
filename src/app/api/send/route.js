@@ -12,7 +12,7 @@ const fromEmail = process.env.MY_MAIL;
 export async function POST(req) {
   const { email, subject, msg } = await req.json();
   const user = {email,subject,msg}
-  console.log(user);
+  console.log(user+'routeuser');
 
   try {
     await transporter.sendMail({

@@ -6,7 +6,7 @@ const pass = process.env.NODEMAILER_PASS;
 const key = process.env.RESEND_KEY;
 
 
-console.log(my_email,pass,key)
+console.log(my_email,pass,key,"hiii");
 
 
 export const transporter = nodemailer.createTransport({
