@@ -16,7 +16,7 @@ export default function Home() {
   const [load,Setload] = useState(true);
   setTimeout(() => {
     Setload(false);
-  },800)
+  },700)
   if(load){
   return (
     <div className="dashboard body2 bg-[#121212]">

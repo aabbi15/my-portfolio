@@ -28,7 +28,7 @@ const EmailSection = () => {
 
     const response = await axios.post("/api/send", JSONuser);
     const resData = await response.msg;
-    console.log(resData + 're');
+    console.log(resData + 'resdata');
 
     if (response.status === 200) {
       console.log("Message sent.");

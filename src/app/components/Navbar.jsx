@@ -9,23 +9,23 @@ import Image from "next/image";
 const navLinks = [
   {
     title: "About",
-    path: "#about",
+    path: "about",
   },
   {
     title: "Skills",
-    path: "#skills"
+    path: "skills"
   },
   {
     title: "Projects",
-    path: "#projects",
+    path: "projects",
   },
   {
     title: "Certifications",
-    path: "#certifications"
+    path: "certifications"
   },
   {
     title: "Contact",
-    path: "#contact",
+    path: "contact",
   },
 
   
