@@ -16,12 +16,13 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "DAI-IICT Clubs and comittee website",
-    description: "Website for list of clubs ",
-    image: "/images/projects/clubs.jpg",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/MSTC-DA-IICT/Hacktoberfest23-ReACTivate",
+    title: "Wellness Nexus",
+    description: "Nationwide healthcare management System",
+    image: "/images/projects/wellness.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/aabbi15/enigma-23",
     previewUrl: "/",
+    
   },
   {
     id: 3,
@@ -35,11 +36,12 @@ const projectsData = [
 
   {
     id: 4,
-    title: "Wellness Nexus",
-    description: "Nationwide healthcare management System",
-    image: "/images/projects/wellness.jpg",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/aabbi15/enigma-23",
+   
+    title: "DAI-IICT Clubs and comittee website",
+    description: "Website for list of clubs ",
+    image: "/images/projects/clubs.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/MSTC-DA-IICT/Hacktoberfest23-ReACTivate",
     previewUrl: "/",
   },
   {

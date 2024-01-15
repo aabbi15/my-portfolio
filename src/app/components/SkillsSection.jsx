@@ -147,7 +147,11 @@ const SkillsSection = () => {
   const isInView = useInView(ref, { once: true });
 
   const handleTagChange = (newTag) => {
-    setTag(newTag);
+    setTag(null);
+    setTimeout(() => {
+      setTag(newTag);
+    },100)
+    
   };
 
   const filteredProjects = projectsData.filter((project) =>
