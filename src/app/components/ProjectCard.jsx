@@ -3,6 +3,19 @@ import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+  function Sitelink(){
+    if(previewUrl!='/'){
+      return (
+        <Link
+          href={previewUrl}
+          className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+        >
+          <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+        </Link>
+      )
+    }
+    else return(<></>);
+  }
   return (
     <div>
       <div
@@ -22,6 +35,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
           >
             <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link> */}
+          {Sitelink()}
         </div>
       </div>
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">

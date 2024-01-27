@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Maitri Manthan Portal",
+    description: "Provides a portal to connect the people who want to enroll in internships",
+    image: "/images/projects/maitri.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/aabbi15/maitrimanthan",
+    previewUrl: "https://maitrimanthan.vercel.app/",
+  },
+  {
+    id: 2,
     title: "CodeAbhi",
     description: "A coding website serves as a LeetCode Substitute",
     image: "/images/projects/codeabhi.jpg",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Wellness Nexus",
     description: "Nationwide healthcare management System",
     image: "/images/projects/wellness.jpg",
@@ -25,7 +34,7 @@ const projectsData = [
     
   },
   {
-    id: 3,
+    id: 4,
     title: "Sudoku Game",
     description: "A simple sudoku PC app made with pygame",
     image: "/images/projects/sudoku.jpg",
@@ -35,7 +44,7 @@ const projectsData = [
   },
 
   {
-    id: 4,
+    id: 5,
    
     title: "DAI-IICT Clubs and comittee website",
     description: "Website for list of clubs ",
@@ -45,16 +54,16 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 5,
+    id: 6,
     title: "React Portfolio Website",
     description: "A portfolio website made using NextJS",
     image: "/images/projects/Portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/aabbi15/my-portfolio",
-    previewUrl: "/",
+    previewUrl: "https://abhishek-abbi.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Stock Data Scraper",
     description: "Scrapes data of Top indian stocks using python libraries like BeautifulSoup and Selenium",
     image: "/images/projects/stock.png",
@@ -62,6 +71,8 @@ const projectsData = [
     gitUrl: "https://github.com/aabbi15/stock_scraping",
     previewUrl: "/",
   },
+
+
 ];
 
 const ProjectsSection = () => {
