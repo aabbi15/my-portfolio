@@ -15,18 +15,19 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-[80px] lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
+            <span className="lg:min-h-[250px] lg:mt-0 inline-block mt-2 min-h-[100px] "  >
             <TypeAnimation
               sequence={[
-                "Abhishek",
+                "Abhishek\nAbbi",
                 1000,
-                "Full-stack Developer",
+                "A Full-stack\nDeveloper",
                 1000,
-                "Backend Engineer",
+                "A Backend\nEngineer",
                 1000,
                 // "API ",
                 // 1000,
@@ -34,7 +35,9 @@ const HeroSection = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
+              className="whitespace-pre-line" 
             />
+            </span>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
           I translate ideas into functional and elegant code 
@@ -63,11 +66,11 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[450px] lg:h-[450px] relative">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/me.png"
               alt="hero image"
-              className="absolute transform  -translate-y-1/4 top-1/4 left-1/2 w-[300px] h-[300px]"
+              className="absolute transform  -translate-y-1/4 top-1/4 left-1/2 w-[250px] h-[250px]"
               layout="fill"
               objectFit="cover"
             />
