@@ -81,7 +81,41 @@ const projectsData = [
     previewUrl: "/",
   },
 
-
+  {
+    id: 10,
+    title: "Commenwealth Games Database Management System",
+    description: "Designed schemas, tables and queries for a database management system for commonwealth games",
+    image: "/images/projects/commonwealth.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/aabbi15/Commenwealth-Database",
+    previewUrl: "/",
+  }, {
+    id: 11,
+    title: "Salon Website - Alisha Beauty Parlor",
+    description: "A full stack website for one of my clients with integrated WhatsApp API",
+    image: "/images/projects/salon.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/aabbi15/parlor",
+    previewUrl: "/",
+  }, 
+  {
+    id: 12,
+    title: "Convolution State Diagram Generator",
+    description: "A website which generates the convolution state diagram of a given inputs",
+    image: "/images/projects/trellis.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/aabbi15/trellis",
+    previewUrl: "/",
+  },
+  {
+    id: 13,
+    title: "ATM and Bank Management System",
+    description: "A C++ projects using OOP concepts",
+    image: "/images/projects/atmbank.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/anjalichandwani04/Bank_Management_System",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {

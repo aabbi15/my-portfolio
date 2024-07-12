@@ -23,9 +23,7 @@ function AboutSection(){
           In addition, my creativity flourishes in Python, where I have developed dekstop applications and web scraping scripts which make the use of Beautiful Soup and Selenium.
           <br/>
 
-          I am an active contributed to open-source projects, culminating in the successful completion of Hacktoberfest 2023.
-
-          <br/>
+          
 
           I bring a comprehensive skill set to each project. My focus is on delivering efficient solutions that perfectly balance functionality with aesthetics, ensuring a seamless user experience.
           </p>
