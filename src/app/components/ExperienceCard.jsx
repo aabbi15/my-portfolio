@@ -1,45 +1,64 @@
-export default function ExperienceCard (){
-    return (
-        <a href="#" className="group relative block h-64 sm:h-80 lg:h-96">
-  <span className="absolute inset-0 border-2 border-dashed border-black"></span>
+import React from "react";
+import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
-  <div
-    className="relative flex h-full transform items-end border-2 border-black bg-white transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2"
-  >
-    <div
-      className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="size-10 sm:size-12"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
+const ExperienceCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+  function Sitelink(){
+    if(previewUrl!='/'){
+      return (
+        <Link
+          href={previewUrl}
+          className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+        >
+          <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+        </Link>
+      )
+    }
+    else return(<></>);
+  }
+
+  function Gitlink(){
+    if(gitUrl!='/'){
+      return (
+        <Link
+          href={gitUrl}
+          className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+        >
+            <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+        </Link>
+      )
+    }
+    else return(<></>);
+  }
+  return (
+    <div>
+      <div
+        className="h-44 md:h-60 rounded-t-xl relative group"
+        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
       >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
-      </svg>
-
-      <h2 className="mt-4 text-xl font-medium sm:text-2xl">Go around the world</h2>
+        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
+          {/* <Link
+            href={gitUrl}
+            className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+          >
+            <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+          </Link> */}
+          {/* <Link
+            href={previewUrl}
+            className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+          >
+            <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+          </Link> */}
+          {Gitlink()}
+          {Sitelink()}
+        </div>
+      </div>
+      <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
+        <h5 className="text-xl font-semibold mb-2">{title}</h5>
+        <p className="text-[#ADB7BE]">{description}</p>
+      </div>
     </div>
+  );
+};
 
-    <div
-      className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8"
-    >
-      <h3 className="mt-4 text-xl font-medium sm:text-2xl">Go around the world</h3>
-
-      <p className="mt-4 text-sm sm:text-base">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, praesentium voluptatem
-        omnis atque culpa repellendus.
-      </p>
-
-      <p className="mt-8 font-bold">Read more</p>
-    </div>
-  </div>
-</a>
-    )
-}
+export default ExperienceCard;

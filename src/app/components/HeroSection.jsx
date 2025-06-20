@@ -64,13 +64,13 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
+          className="col-span-4 place-self-center mt-4 lg:-mt-10"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <div className="rounded-full bg-[#181818]  w-[250px] h-[250px] lg:w-[450px] lg:h-[450px] relative">
             <Image
-              src="/images/me.png"
+              src="/images/me.jpg"
               alt="hero image"
-              className="absolute transform  -translate-y-1/4 top-1/4 left-1/2 w-[250px] h-[250px]"
+              className="rounded-full "
               layout="fill"
               objectFit="cover"
             />

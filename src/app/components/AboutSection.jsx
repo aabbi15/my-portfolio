@@ -9,25 +9,27 @@ import TabButton from "./TabButton";
 function AboutSection(){
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image alt="about" src="/images/about.png" width={500} height={500} className="rounded-lg" />
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-10 sm:py-16 xl:px-8">
+        <div className="flex flex-col gap-5">
+
+        <Image alt="about" src="/images/gdg team.jpeg" width={500} height={400} className="rounded-lg" />
+        <Image alt="about" src="/images/devolution.jpeg" width={500} height={400} className="rounded-lg" />
+
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-          I am a passionate Web Developer with a strong foundation in ReactJS, NodeJS, NextJS, Express, and NodeJS. Using these I have created a lot of website for my clients as well as during my interships.
-          <br/>
-          My expertise extends to both NoSQL and SQL databases (MongoDB and PostgreSQL), ensuring a versatile approach to data management and analysis.
-          
-          <br/>
+          <p className="text-sm lg:text-base">
+        <p>I'm a <strong>Web Developer</strong> with expertise in <strong>ReactJS</strong>, <strong>NextJS</strong>, <strong>NodeJS</strong>, and <strong>Express</strong>, having built dynamic, responsive websites for clients and during internships, including a full-stack admissions platform managing over <strong>14,000 applications</strong>.
+        <br/> <br/>
+         My proficiency in <strong>MongoDB</strong> (using Community Server, Compass, and Atlas) and <strong>PostgreSQL</strong> enables versatile data management, from local testing to scalable cloud solutions.</p>
+<br/> <br/>
 
-          In addition, my creativity flourishes in Python, where I have developed dekstop applications and web scraping scripts which make the use of Beautiful Soup and Selenium.
-          <br/>
-
-          
-
-          I bring a comprehensive skill set to each project. My focus is on delivering efficient solutions that perfectly balance functionality with aesthetics, ensuring a seamless user experience.
-          </p>
-         
+  <p>Beyond web development, I leverage <strong>Python</strong> to create desktop applications and web scraping scripts using <strong>Beautiful Soup</strong> and <strong>Selenium</strong>, delivering efficient, tailored solutions.</p>
+  <br/> <br/>
+  <p>As the convener of the <strong>Google Developer Groups (GDG)</strong> at DAIICT, I organized the institute’s first-ever tech conference, bringing together over <strong>500 students</strong> to foster innovation and collaboration. I also serve on the <strong>Student Placement Cell</strong>, overseeing placements for over <strong>2,000 students</strong>, honing my leadership and coordination skills.</p>
+  <br/> <br/>
+  <p>My focus is on crafting seamless, <strong>user-centric solutions</strong> that balance functionality and aesthetics, ensuring impactful results for every project.</p>
+     </p>
         </div>
       </div>
     </section>
