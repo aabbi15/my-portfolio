@@ -19,7 +19,7 @@ function AboutSection(){
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-sm lg:text-base">
-        <p>I'm a <strong>Web Developer</strong> with expertise in <strong>ReactJS</strong>, <strong>NextJS</strong>, <strong>NodeJS</strong>, and <strong>Express</strong>, having built dynamic, responsive websites for clients and during internships, including a full-stack admissions platform managing over <strong>14,000 applications</strong>.
+        <p>I&apos;m a <strong>Web Developer</strong> with expertise in <strong>ReactJS</strong>, <strong>NextJS</strong>, <strong>NodeJS</strong>, and <strong>Express</strong>, having built dynamic, responsive websites for clients and during internships, including a full-stack admissions platform managing over <strong>14,000 applications</strong>.
         <br/> <br/>
          My proficiency in <strong>MongoDB</strong> (using Community Server, Compass, and Atlas) and <strong>PostgreSQL</strong> enables versatile data management, from local testing to scalable cloud solutions.</p>
 <br/> <br/>
