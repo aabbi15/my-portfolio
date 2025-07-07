@@ -8,7 +8,7 @@ import ExperienceCard from "./ExperienceCard";
 const ExperienceData = [
   {
     id: 1,
-    title: "PG-AGI (Playing God with Artificial General Intelligence)",
+    title: "Intern - PG-AGI (Playing God with Artificial General Intelligence)",
     description: "Developed a responsive landing page for an AI Solutions Agency using NextJS, MongoDB, and TailwindCSS, integrating Calendly API for seamless client scheduling, boosting online presence and conversions.",
     image: "/images/projects/pgagi.png",
     tag: ["All", "Web"],
@@ -17,7 +17,7 @@ const ExperienceData = [
   },
   {
     id: 2,
-    title: "Maitri Manthan Organization",
+    title: "Intern - Maitri Manthan Organization",
     description: "Built a feature-rich software for remote internships, enhanced homepage engagement, led team coordination, and supported Udaipur outreach for a freelance project.",
     image: "/images/projects/maitri.png",
     tag: ["All", "Web"],
@@ -26,7 +26,7 @@ const ExperienceData = [
   },
   {
     id: 3,
-    title: "Suryosa",
+    title: "Freelance - Suryosa",
     description: "Developing a full-stack web app for Suryosa as a freelance developer, leveraging modern web technologies to deliver a robust and scalable solution.",
     image: "/images/projects/suryosa.png",
     tag: ["All", "Web"],
@@ -35,7 +35,7 @@ const ExperienceData = [
   },
   {
     id: 4,
-    title: "Expo Essentials",
+    title: "Freelance - Expo Essentials",
     description: "Developing a full-stack web app for Suryosa as a freelance  contract-based developer, leveraging modern web technologies to deliver a robust and scalable solution.",
     image: "/images/projects/expo.png",
     tag: ["All", "Mobile"],
@@ -45,17 +45,17 @@ const ExperienceData = [
   },
   {
     id: 4,
-    title: "MarkIt Solutions - DAU Admissions",
+    title: "SWE Intern - MarkIt Solutions",
     description: "Developed a full-stack web application for Dhirubhai Ambani University admissions at Markit Solutions, managing over 14,000 applications.",
     image: "/images/projects/dau.png",
     tag: ["All", "Web"],
     gitUrl: "/",
-    previewUrl: "https://admission.daiict.ac.in/",
+    previewUrl: "https://daiict.ac.in/",
   },
 
    {
     id: 5,
-    title: "Salon Website ",
+    title: "Freelance - Salon Website ",
     description: "I made a full stack website working as a contractor for a local salon with integrated WhatsApp API",
     image: "/images/projects/salon.png",
     tag: ["All", "Web"],

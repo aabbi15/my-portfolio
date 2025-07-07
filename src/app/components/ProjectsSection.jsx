@@ -5,24 +5,24 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  {
-    id: 9,
-    title: "AI Agency Website [PG-AGI]",
-    description: "It is a website for an AI agency which I worked on during my time as an intern at PG-AGI",
-    image: "/images/projects/pgagi.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "https://pgagi.in/",
-  },
-  {
-    id: 1,
-    title: "Maitri Manthan Portal",
-    description: "Provides a portal to connect the people who want to enroll in internships",
-    image: "/images/projects/maitri.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/aabbi15/maitrimanthan",
-    previewUrl: "https://maitrimanthan.vercel.app/",
-  },
+  // {
+  //   id: 9,
+  //   title: "AI Agency Website [PG-AGI]",
+  //   description: "It is a website for an AI agency which I worked on during my time as an intern at PG-AGI",
+  //   image: "/images/projects/pgagi.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   previewUrl: "https://pgagi.in/",
+  // },
+  // {
+  //   id: 1,
+  //   title: "Maitri Manthan Portal",
+  //   description: "Provides a portal to connect the people who want to enroll in internships",
+  //   image: "/images/projects/maitri.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/aabbi15/maitrimanthan",
+  //   previewUrl: "https://maitrimanthan.vercel.app/",
+  // },
   {
     id: 2,
     title: "CodeAbhi",

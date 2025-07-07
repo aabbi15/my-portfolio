@@ -7,6 +7,8 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
     if(previewUrl!='/'){
       return (
         <Link
+        target="_blank"
+          rel="noopener noreferrer"
           href={previewUrl}
           className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
         >
@@ -21,6 +23,8 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
     if(gitUrl!='/'){
       return (
         <Link
+        target="_blank"
+        rel="noopener noreferrer"
           href={gitUrl}
           className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
         >
